@@ -1,0 +1,5 @@
+	lw	1	0	op1	reg[1] <- op1
+end	sw	1	0	answer
+done	halt
+op1	.fill	1234					
+answer	.fill	0

@@ -1,0 +1,18 @@
+	add	1	0	0	r1 <- 0
+	addi	2	0	1	r2 <- 1
+	addi	2	0	1	r2 <- 1
+	addi	2	0	1	r2 <- 1
+	addi	2	0	1	r2 <- 1
+	beqz	0	1	end	if r1==0	
+	addi	2	0	1	r2 <- 1
+	addi	2	0	1	r2 <- 1
+	addi	2	0	1	r2 <- 1
+	addi	2	0	1	r2 <- 1
+	addi	2	0	1	r2 <- 1
+	addi	2	0	1	r2 <- 1
+	addi	2	0	1	r2 <- 1
+	addi	2	0	1	r2 <- 1
+	addi	2	0	1	r2 <- 1
+	addi	2	0	1	r2 <- 1
+end	addi	2	0	1	r2 <- 1
+	halt

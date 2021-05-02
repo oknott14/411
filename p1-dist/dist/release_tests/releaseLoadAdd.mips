@@ -1,0 +1,9 @@
+	lw	1	0	op1	reg[1] <- op1
+	lw	2	0	op2	reg[2] <- op2
+	lw	3	0	op3	reg[3] <- op3
+	add	4	3	2	reg[3] <- reg[1] + reg[2]
+	halt
+op1	.fill	1				
+op2	.fill	2				
+op3	.fill	3				
+answer	.fill	0

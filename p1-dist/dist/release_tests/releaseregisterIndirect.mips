@@ -1,0 +1,5 @@
+	addi	2	0	4	
+	lw	1	2	op1	Reg[1] <- mem [ Reg[2] + imm]	
+done	halt
+op1	.fill	4321
+op2	.fill	1234

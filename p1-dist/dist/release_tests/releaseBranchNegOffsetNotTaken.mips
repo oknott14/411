@@ -1,0 +1,44 @@
+	beqz	0	0	midloop	
+	addi	2	0	5	r2<- 5
+	add	1	0	0	r1 <- 0
+	add	1	0	0	r1 <- 0
+	add	1	0	0	r1 <- 0
+	add	1	0	0	r1 <- 0
+	add	1	0	0	r1 <- 0
+loop	addi	2	0	1	r2 <- 1
+	addi	2	0	1	r2 <- 1
+	addi	2	0	1	r2 <- 1
+	addi	2	0	1	r2 <- 1
+	addi	2	0	1	r2 <- 1
+	addi	2	0	1	r2 <- 1
+	addi	2	0	1	r2 <- 1
+	beqz	0	0	end	
+	addi	2	0	1	r2 <- 1
+	addi	2	0	1	r2 <- 1
+	addi	2	0	1	r2 <- 1
+	addi	2	0	1	r2 <- 1
+	addi	2	0	1	r2 <- 1
+	addi	2	0	1	r2 <- 1
+midloop	addi	2	0	1	r2 <- 1
+	addi	2	0	1	r2 <- 1
+	addi	2	0	1	r2 <- 1
+	addi	2	0	1	r2 <- 1
+	addi	2	0	1	r2 <- 1
+	addi	2	0	1	r2 <- 1
+	addi	2	0	1	r2 <- 1
+	beqz	0	2	loop	if r2==0	test line(negative offset, and is not taken)
+	addi	2	0	1	r2 <- 1
+	addi	2	0	1	r2 <- 1
+	addi	2	0	1	r2 <- 1
+	addi	2	0	1	r2 <- 1
+	addi	2	0	1	r2 <- 1
+	addi	2	0	1	r2 <- 1
+	addi	2	0	1	r2 <- 1
+	addi	2	0	1	r2 <- 1
+	addi	2	0	1	r2 <- 1
+	addi	2	0	1	r2 <- 1
+end	addi	2	0	1	r2 <- 1
+	addi	2	0	1	r2 <- 1
+	addi	2	0	1	r2 <- 1
+	addi	2	0	1	r2 <- 1
+	halt

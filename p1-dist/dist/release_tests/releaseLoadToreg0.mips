@@ -1,0 +1,7 @@
+	lw	0	1	op1	reg[0] <- op1 must not be updated
+	add	1	0	2		reg[1] <- reg[0] + reg[2] must not stall
+	halt
+op1	.fill	1
+op2	.fill	2
+op3	.fill	3
+answer	.fill	0
