@@ -23,5 +23,9 @@ sim-pipe:  mips-small-pipe.c mips-small-pipe.h
 	$(CC) $(CFLAGS) -o sim-pipe mips-small-pipe.o
 	chmod u+x sim-pipe
 
+tests: build.c mips-small-pipe.c
+	$(CC) $(CFLAGS) -c build.c
+	$(CC) $(CFLAGS) -o run-tests build.o
+	chmod u+x run-tests
 clean:  
 	$(RM) *.o asm sim sim-pipe

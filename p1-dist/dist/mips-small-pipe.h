@@ -82,6 +82,7 @@ typedef struct stateStruct {
 
 void run(Pstate);
 
+IDEX_t* regFwd(int, int, int, Pstate);
 int opcode(int);
 int func(int);
 int field_r1(int);
